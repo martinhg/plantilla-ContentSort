@@ -319,6 +319,7 @@ div.owl-theme .owl-controls .owl-page span {
 }
 .main-header-area .logo-area {
   padding-top: 17px;
+  width: 400px;
 }
 .main-header-area .main-menu-area {
   padding: 0px 0;
@@ -348,23 +349,6 @@ div.owl-theme .owl-controls .owl-page span {
 }
 .main-header-area .main-menu-area nav > ul > li a:hover {
   color: #cf9455;
-}
-.main-header-area .main-menu-area nav > ul > li ul {
-  left: 0;
-  opacity: 0;
-  position: absolute;
-  top: 100%;
-  transform: scaleY(0);
-  transform-origin: 0 0 0;
-  transition: all 0.5s ease 0s;
-  width: 200px;
-  z-index: 99999;
-  background: #cf9455;
-  padding: 0 0px;
-}
-.main-header-area .main-menu-area nav > ul > li:hover ul {
-  opacity: 1;
-  transform: scaleY(1);
 }
 .main-header-area .main-menu-area nav > ul > li:hover ul li {
   display: block;
@@ -535,6 +519,18 @@ li.has-child-menu:hover ul.thired-level {
   text-transform: uppercase;
   text-align: center;
 }
+
+@media only screen and (min-width: 992px) {
+  .col-lg-8 {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .col-lg-8 {
+    width: 66.66666667%;
+    float: right;
+  }
+}
 @media only screen and (max-width: 1199px) {
   .slider-area .slider-2 h1 {
     font-size: 48px;
@@ -572,6 +568,16 @@ li.has-child-menu:hover ul.thired-level {
 .slider-buttom-area .single-slider-buttom-area .content-area {
   position: relative;
 }
+.slider-buttom-area .single-slider-buttom-area h4 {
+  color: #ffffff;
+  display: block;
+  font-family: "Raleway", sans-serif;
+  font-size: 19px;
+  font-weight: 600;
+  margin-bottom: 2px !important;
+  text-decoration: none;
+  z-index: 9;
+}
 .slider-buttom-area .single-slider-buttom-area h3 {
   color: #ffffff;
   display: block;
@@ -595,7 +601,7 @@ a[href^=tel] {
 }
 .slider-buttom-area .single-slider-buttom-area a.call-us-buttom {
   background: #ffffff none repeat scroll 0 0;
-  color: #cf9455;
+  color: #0084B5;
   display: inline-block;
   font-weight: 700;
   margin-top: 20px;
@@ -604,16 +610,6 @@ a[href^=tel] {
   text-decoration: none;
   text-transform: uppercase;
   transition: all 0.3s ease 0s;
-}
-.slider-buttom-area .single-slider-buttom-area a.call-us-buttom::after {
-  color: #cf9455;
-  content: "\f178";
-  display: block;
-  font-family: FontAwesome;
-  font-size: 20px;
-  position: absolute;
-  right: 39px;
-  top: 17px;
 }
 .slider-buttom-area .single-slider-buttom-area a.call-us-buttom:hover {
   background: #cf9455;
@@ -649,7 +645,7 @@ a[href^=tel] {
 .slider-buttom-area .slider-button-one .call-us-buttom {
   height: 50px;
   padding: 15px 32px;
-  text-align: left !important;
+  text-align: center !important;
   width: 170px;
 }
 .slider-buttom-area .slider-button-one .call-us-buttom::after {
@@ -664,15 +660,7 @@ a[href^=tel] {
   background-blend-mode: soft-light;
   padding: 82px 30px 67px;
   margin: 0px -1px;
-}
-.slider-buttom-area .slider-button-two .call-us-buttom {
-  height: 52px;
-  padding: 15px 25px !important;
-  width: 240px;
-}
-.slider-buttom-area .slider-button-two .call-us-buttom:after {
-  font-size: 15px !important;
-  right: 15px !important;
+  text-align: center;
 }
 .slider-buttom-area .slider-button-three {
   background: url(img/sliderButtom3.jpg) no-repeat;
@@ -716,27 +704,29 @@ p.call-now {
 5.About Lawyer Area Stying 
 ---------------------------------------*/
 .about-lawyer-area {
-  background: #fff;
+  background: #f9f9f9;
   padding: 100px 0 0 0;
-}
-.about-lawyer-area .about-lawyer-featured-image img:hover {
-  opacity: .9;
 }
 .about-lawyer-area .about-content-area {
   margin: 70px 0;
 }
-.about-lawyer-area .about-content-area h1 {
-  color: #000000;
-  font-size: 60px;
-  font-weight: 900;
-  line-height: 62px;
-}
-.about-lawyer-area .about-content-area h1 span {
-  color: #cf9455;
-  font-weight: 600;
+.about-lawyer-area .about-content-area img {
+  display: block;
+  position: relative;
 }
 .about-lawyer-area .about-content-area p {
   color: #666666;
+  display: block;
+  position: absolute;
+  bottom: 267px;
+  left: 102px;
+  padding: 3px;
+}
+.about-lawyer-area .about-content-area ul {
+  position: absolute;
+  display: block;
+  left: 106px;
+  bottom: 119px;
 }
 .about-lawyer-area .about-content-area ul li {
   color: #393939;
@@ -745,16 +735,19 @@ p.call-now {
   padding: 6px 0;
 }
 .about-lawyer-area .about-content-area ul li::before {
-  content: "\f00c";
-  padding: 0 17px 0 0;
+  content: "\f0c8";
+  padding: 0 13px 0 0;
   left: 0;
   top: 0;
   font-family: FontAwesome;
-  color: #cf9455;
+  color: #0084B5;
+  font-size: xx-small;
 }
 .about-lawyer-area .about-content-area .read-more-button {
   position: relative;
   display: inline-block;
+  bottom: -12px;
+  left: 87px;
 }
 .about-lawyer-area .about-content-area .read-more-button a {
   background-color: #0084B5;
@@ -961,7 +954,7 @@ p.call-now {
 .happy-client-area {
   position: relative;
   padding: 92px 0 40px;
-  background: #f9f9f9;
+  background: #ffffff;
   overflow: hidden;
 }
 .happy-client-area .single-client-area {
@@ -1080,6 +1073,160 @@ p.call-now {
 .designation {
   margin: 0 !important;
   padding: 0;
+}
+/*-------------------------------------
+8.Client Area Styling 
+---------------------------------------*/
+.client-area {
+  position: relative;
+  padding: 92px 0 40px;
+  background: #a8a4ac;
+  overflow: hidden;
+}
+.client-area .single-client-area {
+  text-align: center;
+  background: #ffffff;
+  padding: 47px 0 40px;
+  margin: 15px;
+  transition: all 0.3s ease-out 0s;
+}
+.client-area .single-client-area h3 {
+  margin: 0;
+}
+.client-area .single-client-area h3 a {
+  color: #000000;
+  font-family: "Raleway", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  transition: all 0.3s ease-out 0s;
+  z-index: 2;
+}
+.client-area .single-client-area h3 a:hover {
+  color: #0084B5;
+}
+.client-area .single-client-area .picture {
+  width: 120px;
+  height: 120px;
+  margin: 20px auto;
+  display: block;
+}
+.client-area .single-client-area .picture img {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  border: 2px solid #0084B5;
+}
+.client-area .single-client-area .picture ul {
+  margin: 15px 0;
+}
+.client-area .single-client-area .picture ul li {
+  display: inline-block;
+}
+.client-area .single-client-area .picture ul li a {
+  display: block;
+  padding: 5px 1px;
+}
+.client-area .single-client-area .picture ul li a i {
+  color: #0084B5;
+}
+.client-area .single-client-area .picture ul li.disable a i {
+  color: #0084B5;
+}
+.client-area .single-client-area .designation {
+  color: #0084B5;
+}
+.client-area .single-client-area p {
+  line-height: 24px;
+  margin: 60px 40px 20px;
+}
+.client-area .single-client-area:hover {
+  -webkit-box-shadow: 0px 1px 5px 2px #a6a6a6;
+  -moz-box-shadow: 0px 1px 5px 2px #a6a6a6;
+  box-shadow: 0px 1px 5px 2px #a6a6a6;
+}
+.client-area .client-section-area .owl-prev {
+  position: absolute;
+  left: -70px;
+  top: 0;
+  background: #0084B5 !important;
+  transition: all .3s;
+  border: 1px solid #0084B5;
+  top: 180px;
+  width: 36px;
+  height: 45px;
+  border-radius: 0px !important;
+  z-index: 98;
+  opacity: 1 !important;
+}
+.client-area .client-section-area .owl-prev i {
+  line-height: 36px;
+  font-weight: 700;
+  font-size: 25px;
+  color: #ffffff;
+}
+.client-area .client-section-area .owl-prev:hover {
+  background: #00587A !important;
+  border: 1px solid #00587A !important;
+}
+.client-area .owl-next {
+  position: absolute;
+  right: -70px;
+  top: 0;
+  background: #0084B5 !important;
+  color: #cf9455;
+  transition: all 0.3s ease-out 0s;
+  border: 1px solid #0084B5;
+  top: 180px;
+  width: 36px;
+  height: 45px;
+  border-radius: 0px !important;
+  z-index: 98;
+  opacity: 1 !important;
+}
+.client-area .owl-next i {
+  line-height: 36px;
+  font-weight: 700;
+  font-size: 25px;
+  color: #ffffff;
+}
+.client-area .owl-next:hover {
+  background: #00587A !important;
+  border: 1px solid #00587A !important;
+}
+.client-section-area {
+  padding: 35px 0;
+}
+.single-client-area p {
+  font-size: 14px;
+  font-weight: normal;
+}
+.designation {
+  margin: 0 !important;
+  padding: 0;
+}
+/*-------------------------------------
+9.Consulting Area Styling 
+---------------------------------------*/
+.consulting-area {
+  background: url(img/consulting.jpg) no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-color: rgb(13, 76, 110);
+  background-blend-mode: soft-light;
+  padding: 90px 0;
+}
+.consulting-area .consulting-title-area {
+  position: relative;
+  text-align: center;
+}
+.consulting-area .consulting-title-area h2 {
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.consulting-area .consulting-title-area p {
+  padding: 2px 100px;
+  color: #ffffff;
 }
 /*-------------------------------------
 9.Our Attorney Area Styling 
@@ -1848,6 +1995,7 @@ p.call-now {
 }
 .Home-four .main-header-area .logo-area {
   padding-top: 12px;
+  width: 50px;
 }
 .Home-four .main-header-area .get-consultation a {
   transition: all 0.3s ease-out 0s;
