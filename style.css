@@ -201,10 +201,10 @@ body {
   text-transform: uppercase;
 }
 .load-more a:hover {
-  background: #cf9455 none repeat scroll 0 0;
+  background: #0084B5 none repeat scroll 0 0;
 }
 div.owl-theme .owl-controls .owl-page span {
-  background: #cf9455 !important;
+  background: #0084B5 !important;
 }
 .text-blod {
   color: #000000;
@@ -348,7 +348,7 @@ div.owl-theme .owl-controls .owl-page span {
   border-left: 1px solid #CECECE;
 }
 .main-header-area .main-menu-area nav > ul > li a:hover {
-  color: #cf9455;
+  color: #9DCEE5;
 }
 .main-header-area .main-menu-area nav > ul > li:hover ul li {
   display: block;
@@ -648,6 +648,26 @@ a[href^=tel] {
   text-align: center !important;
   width: 170px;
 }
+.slider-buttom-area .slider-button-two .call-us-buttom::after {
+  font-size: 15px !important;
+  right: 30px !important;
+}
+.slider-buttom-area .slider-button-two .call-us-buttom {
+  height: 50px;
+  padding: 15px 32px;
+  text-align: center !important;
+  width: 170px;
+}
+.slider-buttom-area .slider-button-three .call-us-buttom::after {
+  font-size: 15px !important;
+  right: 30px !important;
+}
+.slider-buttom-area .slider-button-three .call-us-buttom {
+  height: 50px;
+  padding: 15px 32px;
+  text-align: center !important;
+  width: 170px;
+}
 .slider-buttom-area .slider-button-one .call-us-buttom::after {
   font-size: 15px !important;
   right: 30px !important;
@@ -671,26 +691,6 @@ a[href^=tel] {
   text-align: left;
   padding: 84px 0 105px 30px;
 }
-.slider-buttom-area .slider-button-three ul li {
-  padding: 7.2px 0;
-  color: #dddddd;
-}
-.slider-buttom-area .slider-button-three ul li::after {
-  background: #484848 none repeat scroll 0 0;
-  content: "";
-  display: block;
-  height: 1px;
-  left: 0;
-  margin: 18px 0 0 !important;
-  top: 18px !important;
-  width: 400px;
-}
-.slider-buttom-area .slider-button-three ul li:last-child::after {
-  background: transparent !important;
-}
-.slider-buttom-area .slider-button-three ul li span {
-  margin-left: 150px;
-}
 .first-box-content {
   position: absolute;
   right: 0;
@@ -704,7 +704,7 @@ p.call-now {
 5.About Lawyer Area Stying 
 ---------------------------------------*/
 .about-lawyer-area {
-  background: #f9f9f9;
+  background: #ffffff;
   padding: 100px 0 0 0;
 }
 .about-lawyer-area .about-content-area {
@@ -718,8 +718,8 @@ p.call-now {
   color: #666666;
   display: block;
   position: absolute;
-  bottom: 267px;
-  left: 102px;
+  bottom: 43%;
+  left: 13%;
   padding: 3px;
 }
 .about-lawyer-area .about-content-area ul {
@@ -920,6 +920,16 @@ p.call-now {
 .our-practice-area .practice-area .owl-next:hover {
   background: #cf9455 !important;
   border: 1px solid #cf9455 !important;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .header-area-top-area .header-top-center p {
+    font-size: 12px;
+  }
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .header-area-top-area .header-top-center p {
+    text-align: center;
+  }
 }
 /*-------------------------------------
 7.Advertise Area Styling 
@@ -1244,6 +1254,9 @@ p.call-now {
 .our-attorney-area .our-attorney .single-attorney .attorney-picture {
   position: relative;
 }
+.owl-item {
+  width: 150px;
+}
 .our-attorney-area .our-attorney .single-attorney .attorney-picture img {
   width: 100%;
 }
@@ -1334,7 +1347,7 @@ p.call-now {
 10.Latest News Area Stying 
 ---------------------------------------*/
 .latest-news-area {
-  background: #f9f9f9;
+  background: #ffffff;
   padding: 90px 0;
 }
 .latest-news-area .single-news-area {
@@ -1506,113 +1519,70 @@ p.call-now {
 ---------------------------------------*/
 .footer-top-area {
   background: #0084B5;
-  padding: 100px 0;
+  padding: 30px 0 40px 0;
   color: #ffffff;
 }
-.footer-top-area .footer h2 {
-  text-transform: uppercase;
-  color: #ffffff;
-  font-size: 20px;
-  font-weight: 600;
+.footer-top-area .footer-image {
+  padding: 5px;
 }
-.footer-top-area .footer h2:after {
-  background: #cf9455 none repeat scroll 0 0;
-  content: "";
-  display: block;
-  height: 2px;
-  left: 0;
-  right: 0;
-  top: 0;
-  width: 50px;
-  margin: 21px 0;
-}
-.footer-top-area .footer-one p {
-  color: #c4c4c4;
-}
-.footer-top-area .footer-one .social-media {
-  margin-top: 20px;
-}
-.footer-top-area .footer-one .social-media ul li {
-  float: left;
-  border: 1px solid #cf9455;
-  margin-right: 10px;
-}
-.footer-top-area .footer-one .social-media ul li a {
-  display: block;
-  font-size: 18px;
-  height: 35px;
-  padding: 5px 10px 10px;
-  text-align: center;
-  transition: all 0.3s ease-out 0s;
-  width: 35px;
-}
-.footer-top-area .footer-one .social-media ul li a i {
-  color: #ffffff;
-  transition: all 0.3s ease-out 0s;
-}
-.footer-top-area .footer-one .social-media ul li a i:hover {
-  color: #cf9455;
-}
-.footer-top-area .footer-two ul li {
-  padding: 10px 0 0 15px;
-  position: relative;
-}
-.footer-top-area .footer-two ul li:first-child {
-  padding-top: 0;
-}
-.footer-top-area .footer-two ul li:before {
-  background: #cf9455 none repeat scroll 0 0;
-  content: "";
-  height: 5px;
-  left: 0px;
-  line-height: 33px;
-  margin: 10px 0 0;
-  position: absolute;
-  width: 5px;
-  transition: all 0.3s ease-out 0s;
-}
-.footer-top-area .footer-two ul li a {
-  color: #dddddd;
-}
-.footer-top-area .footer-two ul li a:hover {
-  color: #cf9455;
+.footer-top-area .footer-image img {
+  display:block;
+  margin:auto;
 }
 .footer-top-area .footer-three ul li {
-  padding: 10px 0 0 0 !important;
+  padding: 5px 0 0 0 !important;
   position: relative;
-  color: #c4c4c4;
+  color: #9DCEE5;
 }
-.footer-three i {
-  color: #cf9455;
-  font-size: 19px;
-  padding: 5px;
+.footer-top-area .footer-three ul li p {
+  margin: 0;
+  text-align: center;
 }
 .footer-top-area .footer-three ul li:first-child {
   padding: 0;
 }
-.footer-top-area .footer-three ul li a {
-  color: #dddddd;
+.footer-top-area .main-header-area {
+  position: relative;
 }
-.footer-top-area .footer-three ul li a:hover {
-  color: #cf9455;
+.footer-top-area > .container > .main-header-area > .col-lg-12 {
+  text-align: center;
 }
-.footer-top-area .footer-three ul li a i {
-  color: #cf9455;
-  margin: 5px;
-}
-.footer-top-area .footer-four ul li {
-  float: left;
-  margin: 3px;
-}
-.footer-top-area .footer-four ul li a {
+.footer-top-area .main-header-area .main-menu-area nav > ul > li a {
   display: block;
+  color: #ffffff;
+  padding: 0 20px;
+  transition: all .3s;
+  font-family: 'Droid Sans', sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 14px;
 }
-.footer-top-area .footer-four ul li a img {
-  width: 80px;
-  transition: all 0.3s ease-out 0s;
+.footer-top-area .main-header-area .main-menu-area nav > ul > li a:hover {
+  color: #9DCEE5;
 }
-.footer-top-area .footer-four ul li a img:hover {
-  opacity: .5;
+.footer-top-area .section-title-area {
+  position: relative;
+  text-align: center;
+}
+.footer-top-area .section-title-area h2 {
+  font-size: 14px;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin: 0;
+}
+.section-title-area h2::after {
+  background: #0084B5;
+  content: "";
+  display: block;
+  left: 0;
+  top: 0;
+  right: 0;
+  width: 70px;
+  height: 3px;
+  margin: 0 auto;
+}
+.footer-top-area .section-title-area p {
+  color: #9DCEE5;
 }
 /*-------------------------------------
 13.1 Footer Bottom Area Styling 
@@ -1696,7 +1666,7 @@ p.call-now {
 }
 .experince-area .single-experince-area:hover .icon a {
   background: #ffffff;
-  border: 10px solid #efe2d3;
+  border: 10px solid #9DCEE5;
 }
 .experince-area .single-experince-area:hover .icon a i {
   color: #000000;
@@ -1708,8 +1678,8 @@ p.call-now {
   color: #cf9455;
 }
 .experince-area .single-experince-area .icon a {
-  background: #cf9455 none repeat scroll 0 0;
-  border: 10px solid #efe2d3;
+  background: #0084B5 none repeat scroll 0 0;
+  border: 10px solid #9DCEE5;
   border-radius: 50%;
   display: block;
   height: 100px;
@@ -1738,7 +1708,7 @@ p.call-now {
   color: #cf9455;
 }
 .experince-area .single-experince-area h3 a:after {
-  background: #cf9455 none repeat scroll 0 0;
+  background: #ABADAF none repeat scroll 0 0;
   content: "";
   display: block;
   height: 3px;
@@ -2153,7 +2123,7 @@ p.call-now {
   18.1 Banner Area Stying 
   -------------------------------------*/
 .banner-area {
-  background: url(img/page-bennar.jpg) no-repeat;
+  background: url(img/banner-about.jpg) no-repeat;
   background-position: center center;
   background-size: cover;
   text-align: center;
@@ -2206,7 +2176,9 @@ p.call-now {
   font-weight: 500;
 }
 .about-page-section .about-page-content h2 span {
-  color: #cf9455;
+  color: #0084B5;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
 }
 .about-page-section .about-page-content h4 {
   color: #000000;
@@ -2220,8 +2192,7 @@ p.call-now {
   position: relative;
 }
 .about-page-section .about-page-content .contact-us-button a {
-  background: transparent;
-  color: #cf9455;
+  background-color: #0084B5;
   display: inline-block;
   font-size: 14px;
   font-weight: 600;
@@ -2230,18 +2201,10 @@ p.call-now {
   text-decoration: none;
   transition: all 0.3s ease 0s;
   width: 170px;
-  border: 1px solid #cf9455;
+  border: 1px solid #0084B5;
   text-transform: uppercase;
-}
-.about-page-section .about-page-content .contact-us-button a:after {
-  color: #cf9455;
-  content: "";
-  display: block;
-  font-family: FontAwesome;
-  font-size: 20px;
-  position: absolute;
-  right: 27px;
-  top: 57px;
+  color: #ffffff;
+  text-align: right;
 }
 .about-page-section .about-page-content .contact-us-button a:hover:after {
   color: #ffffff;

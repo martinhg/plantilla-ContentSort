@@ -87,7 +87,7 @@ Our Attorney
 
 	  navigation:false,	  
 
-      items : 3,
+      items : 5,
 
 	  /* transitionStyle : "fade", */    /* [This code for animation ] */
 
@@ -243,7 +243,7 @@ Our Attorney
      jQuery MeanMenu activation code
      --------------------------------------*/
     $('nav#dropdown').meanmenu({
-        siteLogo: "<div class='mobile-menu-nav-back'><a class='logo-mobile' href='index.html'><img src='img/logo-mobile.png' alt='logo' class='img-fluid'/></a></div>"
+        siteLogo: "<div class='mobile-menu-nav-back'><a class='logo-mobile' href='index.html'><img src='img/logos-mobile.png' alt='logo' class='img-fluid'/></a></div>"
     });
 
      /*-------------------------------------
