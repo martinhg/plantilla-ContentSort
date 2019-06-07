@@ -2135,29 +2135,44 @@ p.call-now {
   font-weight: 700;
   text-transform: uppercase;
 }
-.banner-area .main-bennar .breadcumb ul li {
-  display: inline-block;
-  color: #cf9455;
-  position: relative;
-}
-.banner-area .main-bennar .breadcumb ul li a {
+/*-------------------------------------
+Servicios Banner Martin
+-------------------------------------*/
+.banner-area-services {
+  background-position: center center;
+  text-align: center;
   color: #ffffff;
-  display: block;
-  padding: 10px 40px 0 0;
-  text-decoration: none;
+  padding: 130px 0;
+  /* webkit example */
+  background-image: -webkit-gradient(
+    linear, left top, right top, from(rgba(0, 88, 122, 1.0)),
+    to(rgba(0, 132, 181, 0.5))), 
+    url(img/page-services-bannerss.jpg) no-repeat ;
+
+  /* mozilla example - FF3.6+ */
+  background-image: -moz-linear-gradient(
+    right center,
+    rgba(255, 255, 255, 1.0) 20%, rgba(157, 206, 229, 0) 95%
+  );
+
+  /* IE 5.5 - 7 */
+  filter: progid:DXImageTransform.Microsoft.gradient(
+    gradientType=1, startColor=0, endColorStr=#FFFFFF
+  );
+
+  /* IE8 uses -ms-filter for whatever reason... */
+  -ms-filter: progid:DXImageTransform.Microsoft.gradient(
+    gradientType=1, startColor=0, endColoStr=#FFFFFF
+  );
+  background-position: right;
+  background-blend-mode: soft-light;
+  box-shadow: 0px 0px 5px rgb(51, 51, 51);
+    background: box-shadow: 0px 0px 5px rgb(51, 51, 51);
 }
-.banner-area .main-bennar .breadcumb ul li a:after {
-  background: #ffffff;
-  content: "";
-  height: 2px;
-  margin: auto;
-  position: absolute;
-  right: 10px;
-  top: 21px;
-  width: 13px;
-}
-.banner-area .main-bennar .breadcumb ul li a:hover {
-  color: #666666;
+.banner-area-services .main-bennar h2 {
+  font-size: 46px;
+  font-weight: 800;
+  text-transform: uppercase;
 }
 /*-------------------------------------
 18.2 About Page Lawyer Section Area Stying 
@@ -2278,9 +2293,15 @@ p.call-now {
 }
 .practice-area .practice-area-heading-section h2 {
   color: #000000;
+  font-family: 'Raleway', sans-serif;
   font-size: 48px;
-  font-weight: 700;
   margin: 0;
+  text-transform: uppercase;
+}
+.practice-area .practice-area-heading-section h2 span {
+  color: #0084B5;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
   text-transform: uppercase;
 }
 .practice-area .practice-area-heading-section p {
@@ -2294,7 +2315,7 @@ p.call-now {
   margin: 30px 0 0 0;
 }
 .practice-area .practice-service-section-area .single-practice-service-content-area a i {
-  color: #cf9455;
+  color: #0084B5;
   font-size: 50px;
   margin: 15px;
 }
@@ -2307,14 +2328,14 @@ p.call-now {
   padding-right: 10em;
 }
 .practice-area .practice-service-section-area .single-practice-service-content-area .content h4 a {
-  color: #000000;
+  color: #0084B5;
   font-size: 20px;
   text-decoration: none;
   transition: all 0.3s ease 0s;
   font-weight: 700;
 }
 .practice-area .practice-service-section-area .single-practice-service-content-area .content h4 a:hover {
-  color: #cf9455;
+  color: #00587A;
 }
 .practice-area .practice-service-section-area .single-practice-service-content-area .content .practice-service-read-more {
   position: absolute;
@@ -2324,22 +2345,36 @@ p.call-now {
 .practice-area .practice-service-section-area .single-practice-service-content-area .content .practice-service-read-more a {
   display: block;
   padding: 8px 15px;
-  border: 1px solid #cf9455;
+  border: 1px solid #0084B5;
   text-transform: uppercase;
   font-weight: 600;
-  color: #cf9455;
+  background-color: #0084B5;
+  color: #ffffff;
 }
 .practice-area .practice-service-section-area .single-practice-service-content-area .content .practice-service-read-more a:hover {
-  background: #cf9455;
+  background: #00587A;
   transition: all 0.3s ease 0s;
-  border: 1px solid #cf9455;
+  border: 1px solid #00587A;
   color: #ffffff;
 }
 /*-------------------------------------
-21. Blog Page Stying 
+21. Noticias Page Stying 
 ---------------------------------------*/
-.blog .section-title-area h2 {
-  font-size: 48px;
+.latest-news-area .news-area-heading-section {
+  text-align: center;
+}
+.latest-news-area .news-area-heading-section h2 {
+  color: #000000;
+  font-family: 'Raleway', sans-serif;
+  font-size: 28px;
+  margin: 0;
+  text-transform: uppercase;
+}
+.latest-news-area .news-area-heading-section h2 span {
+  color: #0084B5;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 .blog .section-title-area h2:after {
   display: none;
@@ -2354,15 +2389,15 @@ p.call-now {
   margin-top: 60px;
 }
 .blog .pagination ul li {
-  border: 1px solid #cf9455;
+  border: 1px solid #0084B5;
   display: inline-block;
   margin: 5px;
 }
 .blog .pagination ul li.active {
-  border: 1px solid #cf9455;
+  border: 1px solid #0084B5;
 }
 .blog .pagination ul li.active a {
-  background: #cf9455;
+  background: #0084B5;
   color: #ffffff;
 }
 .blog .pagination ul li a {
@@ -2372,7 +2407,7 @@ p.call-now {
   padding: 10px 15px;
 }
 .blog .pagination ul li a:hover {
-  background: #cf9455;
+  background: #0084B5;
   color: #ffffff;
 }
 /*-------------------------------------
@@ -2636,6 +2671,21 @@ p.call-now {
   margin-left: 15px;
   margin-bottom: 20px;
 }
+.contact-page-area .contact-area-heading-section {
+  text-align: center;
+}
+.contact-page-area .contact-area-heading-section h2 {
+  color: #000000;
+  font-family: 'Raleway', sans-serif;
+  font-size: 38px;
+  margin: 0;
+}
+.contact-page-area .contact-area-heading-section h2 span {
+  color: #0084B5;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+}
 .contact-page-area .contact-form-area form label {
   font-size: 14px;
   font-family: 'Open Sans', sans-serif;
@@ -2646,7 +2696,7 @@ p.call-now {
   height: 36px;
 }
 .contact-page-area .contact-form-area form button.submit-buttom {
-  background: #cf9455;
+  background: #0084B5;
   padding: 10px 25px;
   color: #ffffff;
   border: none;
@@ -2683,15 +2733,15 @@ p.call-now {
   margin-bottom: 0;
 }
 .contact-page-area .office-address ul li a {
-  color: #000000;
+  color: #ABADAF;
   font-size: 16px;
   transition: all 0.3s ease 0s;
 }
 .contact-page-area .office-address ul li a:hover {
-  color: #cf9455;
+  color: #0084B5;
 }
 .contact-page-area .office-address ul li a i {
-  background: #cf9455;
+  background: #0084B5;
   font-size: 15px;
   color: #ffffff;
   padding: 10px;
