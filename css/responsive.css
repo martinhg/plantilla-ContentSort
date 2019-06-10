@@ -3,7 +3,9 @@ Responsive CSS Start Here
 ---------------------------------------*/
    /*==========  Extra Large device  ==========*/
 @media only screen and (max-width : 1920px) {
+    .slider-buttom-area .slider-button-one .call-us-buttom {margin-top:20px !important;width: 230px;}
     .slider-buttom-area .slider-button-two .call-us-buttom {margin-top:20px !important;width: 230px;}
+    .slider-buttom-area .slider-button-three .call-us-buttom {margin-top:20px !important;width: 230px;}
     .slider-buttom-area .single-slider-buttom-area h3 {font-size: 28px;}
     .our-practice-area .practice-area .single-practice p {padding: 0 0px;}
     .slider-buttom-area .single-slider-buttom-area h3 {font-size: 27px;}
@@ -90,7 +92,9 @@ Responsive CSS Start Here
      .first-box-content { width: 200px;}
      .slider-buttom-area .slider-button-one h3 {font-size: 23px;}
      .slider-buttom-area .single-slider-buttom-area a.call-us-buttom {margin-top: 23px;font-size: 12px;}
+     .slider-buttom-area .slider-button-one .call-us-buttom {padding: 15px 9px !important;width: 177px;}
      .slider-buttom-area .slider-button-two .call-us-buttom {padding: 15px 9px !important;width: 177px;}
+     .slider-buttom-area .slider-button-three .call-us-buttom {padding: 15px 9px !important;width: 177px;}
      .slider-area .button { top: 80%;}
      .slider-area .small-content {padding: 0;}
     .contact-page-area,

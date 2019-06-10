@@ -153,7 +153,7 @@ ul {
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 18px;
   color: #666666;
   vertical-align: baseline;
 }
@@ -170,7 +170,7 @@ body {
   text-transform: uppercase;
 }
 .section-title-area h2::after {
-  background: #0084B5;
+  background: #ABADAF;
   content: "";
   display: block;
   left: 0;
@@ -250,7 +250,7 @@ div.owl-theme .owl-controls .owl-page span {
   }
 }
 .header-area-top-area .header-top-left p {
-  color: #dddddd;
+  color: #fff;
   margin: 0;
 }
 @media (min-width: 768px) and (max-width: 991px) {
@@ -268,7 +268,7 @@ div.owl-theme .owl-controls .owl-page span {
   margin-right: 5px;
 }
 .header-area-top-area .header-top-center p {
-  color: #dddddd;
+  color: #fff;
   margin: 0;
 }
 @media (min-width: 768px) and (max-width: 991px) {
@@ -304,12 +304,12 @@ div.owl-theme .owl-controls .owl-page span {
 }
 .header-area-top-area .header-top-right ul li a {
   display: block;
-  color: #dddddd;
+  color: #fff;
   padding: 0 15px;
   transition: all .3s;
 }
 .header-area-top-area .header-top-right ul li a:hover {
-  color: #fff;
+  color: #0084B5;
 }
 /*-------------------------------------
 2.2 Main Header Area Start 
@@ -635,7 +635,7 @@ a[href^=tel] {
   background-size: cover;
   background-color: rgb(13, 110, 140);
   background-blend-mode: soft-light;
-  text-align: right;
+  text-align: center;
   padding-right: 30px;
   padding-bottom: 67px;
 }
@@ -688,7 +688,7 @@ a[href^=tel] {
   background-size: cover;
   background-color: rgb(0, 40, 50);
   background-blend-mode: soft-light;
-  text-align: left;
+  text-align: center;
   padding: 84px 0 105px 30px;
 }
 .first-box-content {
@@ -1403,7 +1403,7 @@ p.call-now {
   line-height: inherit;
 }
 .latest-news-area .single-news-area h3 a {
-  color: #000000;
+  color: #ABADAF;
   display: block;
   font-size: 22px;
   font-weight: 500;
@@ -1413,11 +1413,11 @@ p.call-now {
   line-height: 33px;
 }
 .latest-news-area .single-news-area h3 a:hover {
-  color: #cf9455;
+  color: #0084B5;
 }
 .latest-news-area .single-news-area p {
   font-size: 14px;
-  color: #666666;
+  color: #ABADAF;
 }
 /*-------------------------------------
 11.Partner Logo Area Styling 
@@ -1528,9 +1528,9 @@ p.call-now {
 .footer-top-area .footer-image img {
   display:block;
   margin:auto;
+  height: 100px;
 }
 .footer-top-area .footer-three ul li {
-  padding: 5px 0 0 0 !important;
   position: relative;
   color: #9DCEE5;
 }
@@ -1564,25 +1564,20 @@ p.call-now {
   position: relative;
   text-align: center;
 }
-.footer-top-area .section-title-area h2 {
-  font-size: 14px;
+.footer-top-area .section-title-area h3 {
+  font-size: 13px;
   color: #ffffff;
   text-transform: uppercase;
   margin: 0;
 }
-.section-title-area h2::after {
-  background: #0084B5;
-  content: "";
-  display: block;
-  left: 0;
-  top: 0;
-  right: 0;
-  width: 70px;
-  height: 3px;
-  margin: 0 auto;
-}
 .footer-top-area .section-title-area p {
   color: #9DCEE5;
+}
+.footer-top-area .main-header-area .main-menu-area nav > ul > li {
+  display: inline-block;
+  line-height: 15px;
+  padding: 30px 0;
+  position: relative;
 }
 /*-------------------------------------
 13.1 Footer Bottom Area Styling 
@@ -2122,56 +2117,82 @@ p.call-now {
 /*------------------------------------
   18.1 Banner Area Stying 
   -------------------------------------*/
-.banner-area {
-  background: url(img/banner-about.jpg) no-repeat;
+.banner-area-nosotros {
+  background: url(img/05.png) no-repeat;
   background-position: center center;
   background-size: cover;
   text-align: center;
   color: #ffffff;
   padding: 130px 0;
 }
-.banner-area .main-bennar h2 {
+.banner-area-nosotros .main-bennar h2 {
   font-size: 36px;
   font-weight: 700;
   text-transform: uppercase;
 }
-/*-------------------------------------
-Servicios Banner Martin
--------------------------------------*/
 .banner-area-services {
+  background: url(img/04.png) no-repeat;
   background-position: center center;
+  background-size: cover;
   text-align: center;
   color: #ffffff;
   padding: 130px 0;
-  /* webkit example */
-  background-image: -webkit-gradient(
-    linear, left top, right top, from(rgba(0, 88, 122, 1.0)),
-    to(rgba(0, 132, 181, 0.5))), 
-    url(img/page-services-bannerss.jpg) no-repeat ;
-
-  /* mozilla example - FF3.6+ */
-  background-image: -moz-linear-gradient(
-    right center,
-    rgba(255, 255, 255, 1.0) 20%, rgba(157, 206, 229, 0) 95%
-  );
-
-  /* IE 5.5 - 7 */
-  filter: progid:DXImageTransform.Microsoft.gradient(
-    gradientType=1, startColor=0, endColorStr=#FFFFFF
-  );
-
-  /* IE8 uses -ms-filter for whatever reason... */
-  -ms-filter: progid:DXImageTransform.Microsoft.gradient(
-    gradientType=1, startColor=0, endColoStr=#FFFFFF
-  );
-  background-position: right;
-  background-blend-mode: soft-light;
-  box-shadow: 0px 0px 5px rgb(51, 51, 51);
-    background: box-shadow: 0px 0px 5px rgb(51, 51, 51);
 }
 .banner-area-services .main-bennar h2 {
-  font-size: 46px;
-  font-weight: 800;
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.banner-area-consultas {
+  background: url(img/03.png) no-repeat;
+  background-position: center center;
+  background-size: cover;
+  text-align: center;
+  color: #ffffff;
+  padding: 130px 0;
+}
+.banner-area-consultas .main-bennar h2 {
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.banner-area-noticias {
+  background: url(img/02.png) no-repeat;
+  background-position: center center;
+  background-size: cover;
+  text-align: center;
+  color: #ffffff;
+  padding: 130px 0;
+}
+.banner-area-noticias .main-bennar h2 {
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.banner-area-contacto {
+  background: url(img/01.png) no-repeat;
+  background-position: center center;
+  background-size: cover;
+  text-align: center;
+  color: #ffffff;
+  padding: 130px 0;
+}
+.banner-area-contacto .main-bennar h2 {
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.banner-area-nota {
+  background: url(img/02.png) no-repeat;
+  background-position: center center;
+  background-size: cover;
+  text-align: center;
+  color: #ffffff;
+  padding: 130px 0;
+}
+.banner-area-nota .main-bennar h2 {
+  font-size: 36px;
+  font-weight: 700;
   text-transform: uppercase;
 }
 /*-------------------------------------
@@ -2296,7 +2317,6 @@ Servicios Banner Martin
   font-family: 'Raleway', sans-serif;
   font-size: 48px;
   margin: 0;
-  text-transform: uppercase;
 }
 .practice-area .practice-area-heading-section h2 span {
   color: #0084B5;
@@ -2436,7 +2456,7 @@ Servicios Banner Martin
   font-size: 24px;
 }
 .total-blog-area .single-blog-post h2:after {
-  background: #cf9455;
+  background: #0084B5;
   content: "";
   display: block;
   height: 3px;
@@ -2457,14 +2477,14 @@ Servicios Banner Martin
   float: left;
   margin-right: 5px;
   padding: 0px 20px 0 0;
-  color: #333333;
+  color: #ABADAF;
 }
 .date {
-  color: #333333;
+  color: #0084B5;
   font-weight: 600;
 }
 .total-blog-area .single-blog-post .post-informations ul li i {
-  color: #cf9455;
+  color: #0084B5;
   transition: all 0.3s ease 0s;
   margin-right: 10px;
 }
@@ -2480,7 +2500,7 @@ Servicios Banner Martin
   margin: 0 0 25px;
 }
 .total-blog-area .blog-comments-area h2:after {
-  background: #cf9455;
+  background: #0084B5;
   content: "";
   display: block;
   height: 3px;
@@ -2531,7 +2551,7 @@ Servicios Banner Martin
   width: 100%;
 }
 .total-blog-area .blog-sidebar-area .single-sidebar .sidebar-search button {
-  background: #666666;
+  background: #0084B5;
   border: medium none;
   color: #ffffff;
   padding: 10px 15px;
@@ -2542,7 +2562,7 @@ Servicios Banner Martin
   transition: all 0.3s ease 0s;
 }
 .total-blog-area .blog-sidebar-area .single-sidebar .sidebar-search button:hover {
-  background-color: #cf9455;
+  background-color: #00587A;
 }
 .total-blog-area .blog-sidebar-area .single-sidebar .sidebar-category ul li {
   border-bottom: 1px dotted #cf9455;
@@ -2555,17 +2575,17 @@ Servicios Banner Martin
   padding-bottom: 0;
 }
 .total-blog-area .blog-sidebar-area .single-sidebar .sidebar-category ul li a {
-  color: #666666;
+  color: #ABADAF;
   display: block;
   padding: 5px 0 5px 10px;
   text-decoration: none;
   transition: all 0.3s ease 0s;
 }
 .total-blog-area .blog-sidebar-area .single-sidebar .sidebar-category ul li a:hover {
-  color: #cf9455;
+  color: #0084B5;
 }
 .total-blog-area .blog-sidebar-area .single-sidebar .sidebar-category ul li a:before {
-  color: #cf9455;
+  color: #ABADAF;
   content: "\f105";
   font-family: FontAwesome;
   height: 15px;
@@ -2604,7 +2624,7 @@ Servicios Banner Martin
 }
 .total-blog-area .blog-sidebar-area .single-sidebar .popular-tags ul li {
   display: inline-block;
-  border: 1px solid #cf9455;
+  border: 1px solid #0084B5;
   margin: 2px;
 }
 .total-blog-area .blog-sidebar-area .single-sidebar .popular-tags ul li a {
@@ -2614,7 +2634,7 @@ Servicios Banner Martin
   color: #000000;
 }
 .total-blog-area .blog-sidebar-area .single-sidebar .popular-tags ul li a:hover {
-  background: #cf9455;
+  background: #0084B5;
   color: #ffffff;
 }
 .conment-form-area h2 {
