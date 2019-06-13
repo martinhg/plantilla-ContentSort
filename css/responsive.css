@@ -46,6 +46,8 @@ Responsive CSS Start Here
 
     /* Medium Devices, Desktops */
     @media only screen and (max-width : 992px) {
+    .centrar-martin {margin-left: 0em; margin-top: 2em;}
+    .contact-page-area .office-address {margin-top: 9em;}
     .main-header-area .logo-area {text-align: center;}
     .main-header-area .main-menu-area nav > ul > li a {padding: 0 20px;}
     .slider-area .big-title {font-size: 50px;}
@@ -56,7 +58,11 @@ Responsive CSS Start Here
     .slider-buttom-area .single-slider-buttom-area a.call-us-buttom {padding: 15px 17px;}
     .slider-buttom-area .single-slider-buttom-area a.call-us-buttom::after{display: none;}
     .advertise-area {padding: 100px 0;}
+    .about-lawyer-area .about-lawyer-featured-image img {display: none;}
     .about-lawyer-area .about-content-area h1 {font-size: 52px;}
+    .about-lawyer-area .about-content-area p {font-size: 20px;}
+    .about-lawyer-area .about-content-area ul {left: 14%;}
+    .about-lawyer-area .about-content-area .read-more-button {bottom: 30px;left: 12%;}
     .our-attorney-area .our-attorney .single-attorney .attorney-picture .overlay .social-media ul li a i {
     font-size: 22px;}
     .client-logo-area .owl-prev {left: -25px;}
@@ -86,6 +92,7 @@ Responsive CSS Start Here
      .contact-page-area .office-address h2 {font-size: 26px;}
      .get-free-consultation-area .contact-buttom {margin-top: 0;}
      .error-page-area .error-page-content p { padding: 48px 50px !important;}
+     .service-title-area .title-section-area p { padding: 20px 50px;}
      .our-wining-awards-area .wining-section-area p { padding: 20px 50px;}
      .Home-three .testimonial-area .single-testimonial p {font-size: 14px;}
      .slider-buttom-area .single-slider-buttom-area h2 { font-size: 20px;}
@@ -112,6 +119,7 @@ Responsive CSS Start Here
     .about-page-section,
     .about-page-section .about-page-content,
     .practice-area,
+    .service-title-area,
     .our-wining-awards-area,
     .total-blog-area {padding: 25px 0;}
     .arrow4::after {display: none;  }    
@@ -134,6 +142,8 @@ Responsive CSS Start Here
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 767px) {
+    .centrar-martin {margin-left: 0em; margin-top: 2em;}
+    .contact-page-area .office-address {margin-top: 3em;}
 	.mobile-menu-area{display: block;}
 	.main-header-area{display: none;}
     .main-header-area .logo-area {text-align: center;}
@@ -145,6 +155,9 @@ Responsive CSS Start Here
     .slider-buttom-area .single-slider-buttom-area a.call-us-buttom::after{display: none;}
     .advertise-area {padding: 100px 0;}
     .about-lawyer-area .about-content-area h1 {font-size: 50px;}
+    .about-lawyer-area .about-content-area p {font-size: 20px;}
+    .about-lawyer-area .about-content-area ul {left: 14%; bottom: 18%;}
+    .about-lawyer-area .about-content-area .read-more-button {bottom: 25px;left: 12%;}
     .our-attorney-area .our-attorney .single-attorney .attorney-picture .overlay .social-media ul li a i {
     font-size: 22px;}
     .client-logo-area .owl-prev {left: -25px;}
@@ -192,6 +205,8 @@ Responsive CSS Start Here
   .single-lawyer-expert .media-left.ex-icons {display: block; float: none;margin: 10px auto;width: 100%;}
   .about-page-section .about-page-featured-image img {width: 100%;}
   .practice-area .practice-service-section-area .single-practice-service-content-area{padding: 10px 0;}
+  .service-title-area .title-section-area h2 {font-size: 38px;}
+  .service-title-area .title-section-area p { padding: 20px;}
   .our-wining-awards-area .wining-section-area h2 {font-size: 38px;}
   .our-wining-awards-area .wining-section-area p { padding: 20px;}
   .first-box-content {  text-align: center;  width: 100%;} 
@@ -211,6 +226,7 @@ Responsive CSS Start Here
     .about-page-section .about-page-content,
     .practice-area,
     .our-wining-awards-area,
+    .service-title-area,
     .total-blog-area {padding: 25px 0;}
     .slider-buttom-area .single-slider-buttom-area {margin-top: 50px;position: relative;}
     .latest-news-area .single-news-area {height: auto;}
@@ -238,8 +254,21 @@ Responsive CSS Start Here
 
     }
 
+    @media only screen and (max-width: 482px) {
+        .centrar-martin {margin-left: 0em; margin-top: 2em;}
+        .contact-page-area .office-address {margin-top: 1em;}
+        .about-lawyer-area .about-content-area img {left: 3%; height: 176px; top: -30px;}
+        .about-lawyer-area .about-content-area p {font-size: 10px; bottom: 37%;}
+        .about-lawyer-area .about-content-area ul {left: 14%; bottom: 13%;}
+        .about-lawyer-area .about-content-area ul li {font-size: 10px; padding: 1px;}
+        .about-lawyer-area .about-content-area .read-more-button {bottom: -9px; left: 11%;}
+        .about-lawyer-area .about-content-area .read-more-button a {height: 25px; width: 85px; padding: 3px 0; font-size: 9px;}
+    }
+
     /* Extra Small Devices, Phones */ 
     @media only screen and (max-width : 480px) {
+    .centrar-martin {margin-left: 0em; margin-top: 2em;}
+    .contact-page-area .office-address {margin-top: 1em;}
     .mobile-menu-area{display: block;}
     .main-header-area{display: none;}
     .contact-page-area,
@@ -258,6 +287,7 @@ Responsive CSS Start Here
     .about-page-section .about-page-content,
     .practice-area,
     .our-wining-awards-area,
+    .service-title-area,
     .total-blog-area {padding: 25px 0;}
     .latest-news-area .single-news-area {height: auto;}
     .main-header-area .logo-area, .our-attorney-area .our-attorney .attorney-content {text-align: center;}
@@ -269,6 +299,12 @@ Responsive CSS Start Here
     .slider-buttom-area .single-slider-buttom-area a.call-us-buttom::after{display: none;}
     .advertise-area {padding: 100px 0;}
     .about-lawyer-area .about-content-area h1 {font-size: 30px;}
+    .about-lawyer-area .about-content-area img {top: -26px;}
+    .about-lawyer-area .about-content-area p {font-size: 12px; bottom: 37%; left: 15%;}
+    .about-lawyer-area .about-content-area ul {bottom: 12%; left: 17%;}
+    .about-lawyer-area .about-content-area ul li {font-size: 10px; padding: 1px;}
+    .about-lawyer-area .about-content-area .read-more-button {bottom: -9px; left: 14%;}
+    .about-lawyer-area .about-content-area .read-more-button a {height: 25px; width: 85px; padding: 3px 0; font-size: 9px;}
     .our-attorney-area .our-attorney .single-attorney .attorney-picture .overlay .social-media ul li a i {
     font-size: 22px;}
     .client-logo-area .owl-prev {left: -25px;}
@@ -316,6 +352,8 @@ Responsive CSS Start Here
   .single-lawyer-expert .media-left.ex-icons {display: block; float: none;margin: 10px auto;width: 100%;}
   .about-page-section .about-page-featured-image img {width: 100%;}
   .practice-area .practice-service-section-area .single-practice-service-content-area{padding: 10px 0;}
+  .service-title-area .title-section-area h2 {font-size: 25px;}
+  .service-title-area .title-section-area p { padding: 5px 0;}
   .our-wining-awards-area .wining-section-area h2 {font-size: 25px;}
   .our-wining-awards-area .wining-section-area p { padding: 5px 0;}
   .experince-area .experince h2 {font-size: 30px;}
@@ -362,6 +400,7 @@ Responsive CSS Start Here
 
     /* Custom, iPhone Retina */ 
     @media only screen and (max-width : 320px) {
+    .centrar-martin {margin-left: 0em; margin-top: 2em;}
     .mobile-menu-area{display: block;}
     .main-header-area{display: none;}
     .contact-page-area,
@@ -379,6 +418,7 @@ Responsive CSS Start Here
     .about-page-section,
     .about-page-section .about-page-content,
     .practice-area,
+    .service-title-area,    
     .our-wining-awards-area,
     .total-blog-area {padding: 25px 0;}
     .latest-news-area .single-news-area {height: auto;}
@@ -393,6 +433,12 @@ Responsive CSS Start Here
     .about-lawyer-area .about-content-area h1 {font-size: 30px;line-height: 45px;}
     .our-attorney-area .our-attorney .single-attorney .attorney-picture .overlay .social-media ul li a i {
     font-size: 22px;}
+    .about-lawyer-area .about-content-area img {top: -26px;}
+    .about-lawyer-area .about-content-area p {font-size: 8px; bottom: 37%; left: 15%;}
+    .about-lawyer-area .about-content-area ul {bottom: 12%; left: 17%;}
+    .about-lawyer-area .about-content-area ul li {font-size: 10px; padding: 1px;}
+    .about-lawyer-area .about-content-area .read-more-button {bottom: -27px; left: 37px;}
+    .about-lawyer-area .about-content-area .read-more-button a {height: 25px; width: 85px; padding: 3px 0; font-size: 9px;}
     .client-logo-area .owl-prev {left: -25px;}
     .client-logo-area .owl-next {right: -25px;}
     .get-free-consultation-area .contact-buttom a {padding: 15px 9px;font-size: 10px}
@@ -437,6 +483,8 @@ Responsive CSS Start Here
   .single-lawyer-expert .media-left.ex-icons {display: block; float: none;margin: 10px auto;width: 100%;}
   .about-page-section .about-page-featured-image img {width: 100%;}
   .practice-area .practice-service-section-area .single-practice-service-content-area{padding: 10px 0;}
+  .service-title-area .title-section-area h2 {font-size: 25px;}
+  .service-title-area .title-section-area p { padding: 5px 0;}
   .our-wining-awards-area .wining-section-area h2 {font-size: 25px;}
   .our-wining-awards-area .wining-section-area p { padding: 5px 0;}
   .experince-area .experince h2 {font-size: 30px;}

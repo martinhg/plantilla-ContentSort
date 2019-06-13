@@ -1,6 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800);
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,300,500,600,700,800);
 @import url(https://fonts.googleapis.com/css?family=Droid+Sans:400,700);
+@import url(https://fonts.googleapis.com/css?family=Raleway&display=swap);
 /*---------------------------------------
     Template Name: Miakolegal | Responsive HTML5 Template
     Template URI: https://radiustheme.com/
@@ -118,7 +119,7 @@ h5,
 h6 {
   margin: 0 0 20px;
   font-family: 'Raleway', sans-serif;
-  line-height: 1.5;
+  line-height: 1.0;
   font-weight: 600;
 }
 h1 {
@@ -263,7 +264,8 @@ div.owl-theme .owl-controls .owl-page span {
     text-align: center;
   }
 }
-.header-area-top-area .header-top-left p i {
+.header-area-top-area .header-top-left p img {
+  height: 20px;
   color: #fff;
   margin-right: 5px;
 }
@@ -281,7 +283,8 @@ div.owl-theme .owl-controls .owl-page span {
     text-align: center;
   }
 }
-.header-area-top-area .header-top-center p i {
+.header-area-top-area .header-top-center p img {
+  height: 20px;
   color: #fff;
   margin-right: 5px;
 }
@@ -612,7 +615,7 @@ a[href^=tel] {
   transition: all 0.3s ease 0s;
 }
 .slider-buttom-area .single-slider-buttom-area a.call-us-buttom:hover {
-  background: #cf9455;
+  background: #0084B5;
   color: #ffffff;
 }
 .slider-buttom-area .single-slider-buttom-area a.call-us-buttom:hover::after {
@@ -1231,7 +1234,8 @@ p.call-now {
 }
 .consulting-area .consulting-title-area h2 {
   color: #ffffff;
-  font-weight: bold;
+  font-weight: 1000;
+  font-size: 50px;
   text-transform: uppercase;
 }
 .consulting-area .consulting-title-area p {
@@ -1602,7 +1606,7 @@ p.call-now {
   transition: all 0.3s ease-out 0s;
 }
 .footer-buttom-area .footer-buttom .scrollup a:hover {
-  background: #cf9455 none repeat scroll 0 0;
+  background: #00587A none repeat scroll 0 0;
 }
 .footer-buttom-area .footer-buttom .scrollup a i {
   color: #000000;
@@ -1660,10 +1664,10 @@ p.call-now {
   transition: all 0.3s ease-out 0s;
 }
 .experince-area .single-experince-area:hover .icon a {
-  background: #ffffff;
+  background: #000;
   border: 10px solid #9DCEE5;
 }
-.experince-area .single-experince-area:hover .icon a i {
+.experince-area .single-experince-area:hover .icon a img {
   color: #000000;
 }
 .experince-area .single-experince-area:hover h2 {
@@ -1683,10 +1687,9 @@ p.call-now {
   text-align: center;
   width: 100px;
 }
-.experince-area .single-experince-area .icon a i {
-  color: #ffffff;
-  font-size: 25px;
-  line-height: 0;
+.experince-area .single-experince-area .icon a img {
+  height: 45px;
+  margin: 0 0 8px 0;
 }
 .experince-area .single-experince-area h3 {
   margin: 0;
@@ -1883,6 +1886,12 @@ p.call-now {
 }
 .Home-three .service-area .owl-theme .owl-controls.clickable .owl-buttons div:hover i {
   color: #ffffff !important;
+}
+.Home-three .image-andres-cervera {
+  text-align: center;
+}
+.Home-three .image-andres-cervera img {
+  height: 10em;
 }
 /*-------------------------------------
 16.2 Testimonial Area Start Styling 
@@ -2118,7 +2127,7 @@ p.call-now {
   18.1 Banner Area Stying 
   -------------------------------------*/
 .banner-area-nosotros {
-  background: url(img/05.png) no-repeat;
+  background: url(img/banner-nosotros.png) no-repeat;
   background-position: center center;
   background-size: cover;
   text-align: center;
@@ -2126,12 +2135,12 @@ p.call-now {
   padding: 130px 0;
 }
 .banner-area-nosotros .main-bennar h2 {
-  font-size: 36px;
-  font-weight: 700;
-  text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
+  font-size: 60px;
+  font-weight: 1000;
 }
 .banner-area-services {
-  background: url(img/04.png) no-repeat;
+  background: url(img/banner-servicios.png) no-repeat;
   background-position: center center;
   background-size: cover;
   text-align: center;
@@ -2139,12 +2148,25 @@ p.call-now {
   padding: 130px 0;
 }
 .banner-area-services .main-bennar h2 {
-  font-size: 36px;
-  font-weight: 700;
-  text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
+  font-size: 60px;
+  font-weight: 1000;
+}
+.banner-area-servicio {
+  background: url(img/banner-servicios.png) no-repeat;
+  background-position: center center;
+  background-size: cover;
+  text-align: center;
+  color: #ffffff;
+  padding: 130px 0;
+}
+.banner-area-servicio .main-bennar h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 60px;
+  font-weight: 1000;
 }
 .banner-area-consultas {
-  background: url(img/03.png) no-repeat;
+  background: url(img/banner-consultas.png) no-repeat;
   background-position: center center;
   background-size: cover;
   text-align: center;
@@ -2152,12 +2174,12 @@ p.call-now {
   padding: 130px 0;
 }
 .banner-area-consultas .main-bennar h2 {
-  font-size: 36px;
-  font-weight: 700;
-  text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
+  font-size: 60px;
+  font-weight: 1000;
 }
 .banner-area-noticias {
-  background: url(img/02.png) no-repeat;
+  background: url(img/banner-noticias.png) no-repeat;
   background-position: center center;
   background-size: cover;
   text-align: center;
@@ -2165,12 +2187,12 @@ p.call-now {
   padding: 130px 0;
 }
 .banner-area-noticias .main-bennar h2 {
-  font-size: 36px;
-  font-weight: 700;
-  text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
+  font-size: 60px;
+  font-weight: 1000;
 }
 .banner-area-contacto {
-  background: url(img/01.png) no-repeat;
+  background: url(img/banner-contacto.png) no-repeat;
   background-position: center center;
   background-size: cover;
   text-align: center;
@@ -2178,12 +2200,12 @@ p.call-now {
   padding: 130px 0;
 }
 .banner-area-contacto .main-bennar h2 {
-  font-size: 36px;
-  font-weight: 700;
-  text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
+  font-size: 60px;
+  font-weight: 1000;
 }
 .banner-area-nota {
-  background: url(img/02.png) no-repeat;
+  background: url(img/banner-noticias.png) no-repeat;
   background-position: center center;
   background-size: cover;
   text-align: center;
@@ -2191,9 +2213,22 @@ p.call-now {
   padding: 130px 0;
 }
 .banner-area-nota .main-bennar h2 {
-  font-size: 36px;
-  font-weight: 700;
-  text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
+  font-size: 60px;
+  font-weight: 1000;
+}
+.banner-area-envio {
+  background: url(img/banner-consultas.png) no-repeat;
+  background-position: center center;
+  background-size: cover;
+  text-align: center;
+  color: #ffffff;
+  padding: 130px 0;
+}
+.banner-area-envio .main-bennar h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 60px;
+  font-weight: 1000;
 }
 /*-------------------------------------
 18.2 About Page Lawyer Section Area Stying 
@@ -2207,14 +2242,14 @@ p.call-now {
 }
 .about-page-section .about-page-content h2 {
   color: #000000;
-  font-size: 48px;
+  font-size: 45px;
   margin: 0;
   font-weight: 500;
 }
 .about-page-section .about-page-content h2 span {
   color: #0084B5;
   font-family: 'Open Sans', sans-serif;
-  font-weight: bold;
+  font-weight: 600;
 }
 .about-page-section .about-page-content h4 {
   color: #000000;
@@ -2233,28 +2268,22 @@ p.call-now {
   font-size: 14px;
   font-weight: 600;
   margin-top: 40px;
-  padding: 14px 40px 14px 22px;
+  padding: 14px 14px 14px 14px;
   text-decoration: none;
   transition: all 0.3s ease 0s;
   width: 170px;
   border: 1px solid #0084B5;
   text-transform: uppercase;
   color: #ffffff;
-  text-align: right;
+  text-align: center;
 }
 .about-page-section .about-page-content .contact-us-button a:hover:after {
   color: #ffffff;
 }
 .about-page-section .about-page-content .contact-us-button a:hover {
-  background: #cf9455;
-  border: 1px solid #cf9455;
+  background: #00587A;
+  border: 1px solid #00587A;
   color: #ffffff;
-}
-.about-page-section .about-page-featured-image img {
-  transition: all 0.3s ease 0s;
-}
-.about-page-section .about-page-featured-image img:hover {
-  opacity: .9;
 }
 /*-------------------------------------
 19. Awards Page Area Stying 
@@ -2321,11 +2350,14 @@ p.call-now {
 .practice-area .practice-area-heading-section h2 span {
   color: #0084B5;
   font-family: 'Raleway', sans-serif;
-  font-weight: bold;
+  font-weight: 600;
   text-transform: uppercase;
 }
 .practice-area .practice-area-heading-section p {
   padding: 20px 150px 25px;
+}
+.practice-area .practice-service-section-area .center-block {
+  float: none;
 }
 .practice-area .practice-service-section-area .single-practice-service-content-area {
   background: #ffffff;
@@ -2334,10 +2366,11 @@ p.call-now {
   overflow: hidden;
   margin: 30px 0 0 0;
 }
-.practice-area .practice-service-section-area .single-practice-service-content-area a i {
+.practice-area .practice-service-section-area .single-practice-service-content-area a img {
   color: #0084B5;
   font-size: 50px;
   margin: 15px;
+  max-width: none;
 }
 .practice-area .practice-service-section-area .single-practice-service-content-area .content {
   border-left: 1px solid #cfcfcf;
@@ -2382,6 +2415,9 @@ p.call-now {
 ---------------------------------------*/
 .latest-news-area .news-area-heading-section {
   text-align: center;
+}
+.latest-news-area .news-area-heading-section p {
+  margin: 30px 0 20px;
 }
 .latest-news-area .news-area-heading-section h2 {
   color: #000000;
@@ -2682,6 +2718,9 @@ p.call-now {
 .contact-page-area {
   padding: 92px 0;
 }
+.contact-page-area .center-block {
+  float: none;
+}
 .contact-page-area .contact-form-area h2 {
   font-size: 30px;
   font-weight: 600;
@@ -2691,20 +2730,34 @@ p.call-now {
   margin-left: 15px;
   margin-bottom: 20px;
 }
-.contact-page-area .contact-area-heading-section {
+.contact-page-area .contact-area-heading-section p {
+  margin: 10px 0 20px;
   text-align: center;
 }
 .contact-page-area .contact-area-heading-section h2 {
   color: #000000;
   font-family: 'Raleway', sans-serif;
-  font-size: 38px;
+  font-size: 33px;
   margin: 0;
+  text-align: center;
 }
 .contact-page-area .contact-area-heading-section h2 span {
   color: #0084B5;
   font-family: 'Raleway', sans-serif;
-  font-weight: bold;
+  font-weight: 600;
   text-transform: uppercase;
+}
+.contact-page-area .contact-form-area .consultas-servicios {
+  font-family: 'Raleway', sans-serif;
+  background-color: #0084B5;
+  color: #fff;
+  font-weight: bold;
+}
+.contact-page-area .contact-form-area legend {
+  margin: 10px 0 20px;
+  color: #666666;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
 }
 .contact-page-area .contact-form-area form label {
   font-size: 14px;
@@ -2735,6 +2788,18 @@ p.call-now {
     margin: 30px 0 50px 15px;
   }
 }
+.center-blick {
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+.centrar-martin {
+  margin-left: 13em;
+  margin-top: 2em;
+}
+.contact-page-area .office-address {
+  margin-top: 10.5em;
+}
 .contact-page-area .office-address h2 {
   font-size: 30px;
   font-weight: 600;
@@ -2760,22 +2825,10 @@ p.call-now {
 .contact-page-area .office-address ul li a:hover {
   color: #0084B5;
 }
-.contact-page-area .office-address ul li a i {
-  background: #0084B5;
-  font-size: 15px;
-  color: #ffffff;
-  padding: 10px;
-  width: 35px;
-  height: 35px;
-  text-align: center;
-  margin-right: 20px;
-  transition: all 0.3s ease 0s;
-  position: absolute;
-  left: 0;
-  top: 0;
-  z-index: 1;
+.contact-page-area .office-address ul li a img {
+  height: 25px;
 }
-.contact-page-area .office-address ul li a i:hover {
+.contact-page-area .office-address ul li a img:hover {
   color: #000000;
 }
 .contact-page-area .blog-sidebar-area .single-sidebar {
@@ -2891,7 +2944,7 @@ p.call-now {
 }
 .error-page-area .error-page {
   text-align: center;
-  background: url(img/404.png) no-repeat;
+  background-color: #0084B5;
   background-position: center center;
   background-size: cover;
   padding: 100px;
@@ -2923,12 +2976,13 @@ p.call-now {
   text-transform: uppercase;
   text-decoration: none;
   padding: 10px 20px;
-  background: #cf9455;
+  background: #0084B5;
   transition: all 0.3s ease 0s;
   color: #ffffff;
+  margin: 0 0 10px 0;
 }
 .error-page-area .error-page-content .go-home a:hover {
-  background: #666666;
+  background: #00587A;
   color: #ffffff;
 }
 /*-------------------------------------
@@ -3235,4 +3289,79 @@ p.call-now {
 }
 .mean-container .mean-bar .meanmenu-reveal {
   transition: unset;
+}
+/*-------------------------------------
+19. Servicio
+---------------------------------------*/
+
+.special-text {
+  color: #0084B5;
+}
+
+.service-title-area {
+  padding: 90px 0 100px;
+}
+.service-title-area .title-section-area {
+  text-align: center;
+}
+.service-title-area .title-section-area h2 {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #0084B5;
+  font-size: 40px;
+  margin: 0;
+}
+.service-title-area .title-section-area p {
+  padding: 20px 0;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+.service-title-area .about-service-content {
+  padding: 0 20px;
+}
+.service-title-area .about-service-content p {
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 28px;
+}
+
+
+
+
+
+.service-center-block {
+  float: none;
+}
+.practice-area .practice-service-section-area .service-page-content-section {
+  padding: 60px 50px;
+  position: relative;
+  overflow: hidden;
+  margin: 30px 0 0 0;
+}
+.practice-area .practice-service-section-area .service-page-content-section a img {
+  color: #0084B5;
+  font-size: 50px;
+  margin: 15px;
+  max-width: none;
+}
+.practice-area .practice-service-section-area .secttion {
+  border-right: 1px solid #cfcfcf;
+  position: relative;
+}
+.practice-area .practice-service-section-area .service-page-content-section p {
+
+}
+.practice-area .practice-service-section-area .service-page-content-section h4 a {
+  color: #0084B5;
+  font-size: 20px;
+  text-decoration: none;
+  transition: all 0.3s ease 0s;
+  font-weight: 700;
+}
+.practice-area .practice-service-section-area .service-page-content-section h4 a:hover {
+  color: #00587A;
+}
+.service-title-area .about-page-featured-image p {
+  text-align: center;
+  margin-top: 5px;
+  font-size: 12px;
 }
