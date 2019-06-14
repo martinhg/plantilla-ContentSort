@@ -21,7 +21,7 @@ Responsive CSS Start Here
     .slider-area .big-title {font-size: 50px;}
     .slider-area .button {top: 75%;}
     .slider-buttom-area .single-slider-buttom-area h3 {font-size: 26px;}
-    .slider-buttom-area .slider-button-two {padding: 82px 10px 88px;text-align: left;min-height: 350px;}
+    .slider-buttom-area .slider-button-two {padding: 82px 10px 88px; min-height: 350px;}
     .slider-buttom-area .single-slider-buttom-area a.call-us-buttom {padding: 15px 44px;}
     .slider-buttom-area .single-slider-buttom-area a.call-us-buttom::after{display: none;}
     .advertise-area {padding: 100px 0;}
@@ -41,6 +41,13 @@ Responsive CSS Start Here
     .slider-buttom-area .single-slider-buttom-area h3 {font-size: 27px;}
     .slider-buttom-area .single-slider-buttom-area {padding: 85px 9px 25px !important;}
     .latest-news-area .single-news-area .news-featured-image ul li {margin-right: 5px;float: left;}
+    .about-lawyer-area .about-lawyer-featured-image img {height: 450px;}
+    .about-lawyer-area .about-content-area img {height: 300px;}
+    .about-lawyer-area .about-content-area p {bottom: 38%; left: 13%;}
+    .about-lawyer-area .about-content-area ul {left: 71px; bottom: 90px;}
+    .about-lawyer-area .about-content-area .read-more-button {bottom: -35px; left: 55px;}
+    .about-page-section .about-page-featured-image img {height: auto;}
+
 
     }
 
@@ -54,15 +61,16 @@ Responsive CSS Start Here
     .slider-area .small-content {padding: 25px;}
     .slider-area .button {top: 70%;}
     .slider-buttom-area .single-slider-buttom-area h2 a {font-size: 26px;}
-    .slider-buttom-area .slider-button-two {padding: 82px 5px 88px;text-align: left;min-height: 350px;}
+    .slider-buttom-area .slider-button-two {padding: 82px 5px 88px;min-height: 350px;}
     .slider-buttom-area .single-slider-buttom-area a.call-us-buttom {padding: 15px 17px;}
     .slider-buttom-area .single-slider-buttom-area a.call-us-buttom::after{display: none;}
     .advertise-area {padding: 100px 0;}
-    .about-lawyer-area .about-lawyer-featured-image img {display: none;}
+    .about-lawyer-area .about-content-area img {height: 250px;}
     .about-lawyer-area .about-content-area h1 {font-size: 52px;}
-    .about-lawyer-area .about-content-area p {font-size: 20px;}
-    .about-lawyer-area .about-content-area ul {left: 14%;}
-    .about-lawyer-area .about-content-area .read-more-button {bottom: 30px;left: 12%;}
+    .about-lawyer-area .about-content-area p {left: 16%; sfont-size: 15px; bottom: 26%;}
+    .about-lawyer-area .about-content-area ul {left: 17%; bottom: -5%;}
+    .about-lawyer-area .about-content-area ul li {font-size: 15px;}
+    .about-lawyer-area .about-content-area .read-more-button {bottom: -85px; left: 15%;}
     .our-attorney-area .our-attorney .single-attorney .attorney-picture .overlay .social-media ul li a i {
     font-size: 22px;}
     .client-logo-area .owl-prev {left: -25px;}
@@ -113,6 +121,8 @@ Responsive CSS Start Here
     .our-attorney-area,
     .latest-news-area,
     .experince-area,
+    .service-area,
+    .service-title-area,
     .Home-three .service-area,
     .Home-four .lawyer-expert-area,
     .home4-practiceing-area,
@@ -142,6 +152,10 @@ Responsive CSS Start Here
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 767px) {
+    .about-lawyer-area .about-content-area img {height: 265px;}
+    .about-page-section .about-page-featured-image img {display: none;}
+    .service-area .practice-service-section-area .secttion {border-bottom: 1px solid #cfcfcf; border-right: 0;}
+    .service-title-area .about-service-content .contact-us-button {margin-bottom: 15px; float: none; text-align: center; margin-left: auto; margin-right: auto; display: block;}
     .centrar-martin {margin-left: 0em; margin-top: 2em;}
     .contact-page-area .office-address {margin-top: 3em;}
 	.mobile-menu-area{display: block;}
@@ -150,14 +164,15 @@ Responsive CSS Start Here
     .main-header-area .main-menu-area nav > ul > li a {padding: 0 20px;}
     .slider-area .big-title, .slider-area .small-content, .slider-area .button {display: none;}
     .slider-buttom-area .single-slider-buttom-area h2 a {font-size: 26px;}
-    .slider-buttom-area .slider-button-two {padding: 82px 2px 88px;text-align: left;min-height: 350px;}
+    .slider-buttom-area .slider-button-two {padding: 82px 2px 88px; min-height: 350px;}
     .slider-buttom-area .single-slider-buttom-area a.call-us-buttom {padding: 15px 40px;}
     .slider-buttom-area .single-slider-buttom-area a.call-us-buttom::after{display: none;}
     .advertise-area {padding: 100px 0;}
     .about-lawyer-area .about-content-area h1 {font-size: 50px;}
-    .about-lawyer-area .about-content-area p {font-size: 20px;}
-    .about-lawyer-area .about-content-area ul {left: 14%; bottom: 18%;}
-    .about-lawyer-area .about-content-area .read-more-button {bottom: 25px;left: 12%;}
+    .about-lawyer-area .about-content-area p {font-size: 18px;}
+    .about-lawyer-area .about-content-area ul {left: 14%; bottom: 8%;}
+    .about-lawyer-area .about-content-area ul li {font-size: 16px;}
+    .about-lawyer-area .about-content-area .read-more-button {bottom: 0px;left: 12%;}
     .our-attorney-area .our-attorney .single-attorney .attorney-picture .overlay .social-media ul li a i {
     font-size: 22px;}
     .client-logo-area .owl-prev {left: -25px;}
@@ -216,6 +231,8 @@ Responsive CSS Start Here
     .about-lawyer-area,
     .our-practice-area,
     .happy-client-area,
+    .service-area,
+    .service-title-area,
     .our-attorney-area,
     .latest-news-area,
     .experince-area,
@@ -286,15 +303,19 @@ Responsive CSS Start Here
     .about-page-section,
     .about-page-section .about-page-content,
     .practice-area,
+    .service-area,
+    .service-title-area,
     .our-wining-awards-area,
     .service-title-area,
     .total-blog-area {padding: 25px 0;}
+    .service-area .practice-service-section-area .secttion {border-bottom: 1px solid #cfcfcf; border-right: 0;}
+    .service-title-area .about-service-content .contact-us-button {margin-bottom: 15px; float: none; text-align: center; margin-left: auto; margin-right: auto; display: block;}
     .latest-news-area .single-news-area {height: auto;}
     .main-header-area .logo-area, .our-attorney-area .our-attorney .attorney-content {text-align: center;}
     .main-header-area .main-menu-area nav > ul > li a {padding: 0 20px;}
     .slider-area .big-title, .slider-area .small-content, .slider-area .button {display: none;}
     .slider-buttom-area .single-slider-buttom-area h2 a {font-size: 26px;}
-    .slider-buttom-area .slider-button-two {padding: 82px 2px 88px;text-align: left;min-height: 350px;}
+    .slider-buttom-area .slider-button-two {padding: 82px 2px 88px; min-height: 350px;}
     .slider-buttom-area .single-slider-buttom-area a.call-us-buttom {padding: 15px 17px;}
     .slider-buttom-area .single-slider-buttom-area a.call-us-buttom::after{display: none;}
     .advertise-area {padding: 100px 0;}
@@ -418,15 +439,18 @@ Responsive CSS Start Here
     .about-page-section,
     .about-page-section .about-page-content,
     .practice-area,
+    .service-area;
     .service-title-area,    
     .our-wining-awards-area,
     .total-blog-area {padding: 25px 0;}
+    .service-area .practice-service-section-area .secttion {border-bottom: 1px solid #cfcfcf; border-right: 0;}
+    .service-title-area .about-service-content .contact-us-button {margin-bottom: 15px; float: none; text-align: center; margin-left: auto; margin-right: auto; display: block;}
     .latest-news-area .single-news-area {height: auto;}
     .main-header-area .logo-area, .our-attorney-area .our-attorney .attorney-content {text-align: center;}
     .main-header-area .main-menu-area nav > ul > li a {padding: 0 20px;}
     .slider-area .big-title, .slider-area .small-content, .slider-area .button {display: none;}
     .slider-buttom-area .single-slider-buttom-area h2 a {font-size: 26px;}
-    .slider-buttom-area .slider-button-two {padding: 82px 2px 88px;text-align: left;min-height: 350px;}
+    .slider-buttom-area .slider-button-two {padding: 82px 2px 88px; min-height: 350px;}
     .slider-buttom-area .single-slider-buttom-area a.call-us-buttom {padding: 15px 17px;}
     .slider-buttom-area .single-slider-buttom-area a.call-us-buttom::after{display: none;}
     .advertise-area {padding: 10px 0;}

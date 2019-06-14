@@ -611,7 +611,6 @@ a[href^=tel] {
   padding: 15px 34px;
   position: relative;
   text-decoration: none;
-  text-transform: uppercase;
   transition: all 0.3s ease 0s;
 }
 .slider-buttom-area .single-slider-buttom-area a.call-us-buttom:hover {
@@ -721,15 +720,15 @@ p.call-now {
   color: #666666;
   display: block;
   position: absolute;
-  bottom: 43%;
+  bottom: 38%;
   left: 13%;
   padding: 3px;
 }
 .about-lawyer-area .about-content-area ul {
   position: absolute;
   display: block;
-  left: 106px;
-  bottom: 119px;
+  left: 80px;
+  bottom: 75px;
 }
 .about-lawyer-area .about-content-area ul li {
   color: #393939;
@@ -749,8 +748,8 @@ p.call-now {
 .about-lawyer-area .about-content-area .read-more-button {
   position: relative;
   display: inline-block;
-  bottom: -12px;
-  left: 87px;
+  bottom: -55px;
+  left: 63px;
 }
 .about-lawyer-area .about-content-area .read-more-button a {
   background-color: #0084B5;
@@ -2230,6 +2229,19 @@ p.call-now {
   font-size: 60px;
   font-weight: 1000;
 }
+.banner-area-terminos {
+  background: url(img/banner-contacto.png) no-repeat;
+  background-position: center center;
+  background-size: cover;
+  text-align: center;
+  color: #ffffff;
+  padding: 130px 0;
+}
+.banner-area-terminos .main-bennar h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 60px;
+  font
+}
 /*-------------------------------------
 18.2 About Page Lawyer Section Area Stying 
 ---------------------------------------*/
@@ -2273,7 +2285,6 @@ p.call-now {
   transition: all 0.3s ease 0s;
   width: 170px;
   border: 1px solid #0084B5;
-  text-transform: uppercase;
   color: #ffffff;
   text-align: center;
 }
@@ -2284,6 +2295,10 @@ p.call-now {
   background: #00587A;
   border: 1px solid #00587A;
   color: #ffffff;
+}
+.about-page-section .about-page-featured-image img {
+  height: 500px;
+  margin-left: 30px;
 }
 /*-------------------------------------
 19. Awards Page Area Stying 
@@ -2296,13 +2311,13 @@ p.call-now {
 }
 .our-wining-awards-area .wining-section-area h2 {
   font-weight: 700;
-  text-transform: uppercase;
   color: #000000;
   font-size: 48px;
   margin: 0;
 }
 .our-wining-awards-area .wining-section-area p {
   padding: 20px 150px;
+  text-align: justify;
 }
 .our-wining-awards-area .single-wining-section {
   margin: 30px 0 0 0;
@@ -2359,6 +2374,14 @@ p.call-now {
 .practice-area .practice-service-section-area .center-block {
   float: none;
 }
+.practice-area .practice-service-section-area .single-practice-service-content-area .terminos h4 {
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  text-align: center
+}
+.practice-area .practice-service-section-area .single-practice-service-content-area .terminos p {
+  text-align: justify;
+}
 .practice-area .practice-service-section-area .single-practice-service-content-area {
   background: #ffffff;
   padding: 60px 50px;
@@ -2399,7 +2422,6 @@ p.call-now {
   display: block;
   padding: 8px 15px;
   border: 1px solid #0084B5;
-  text-transform: uppercase;
   font-weight: 600;
   background-color: #0084B5;
   color: #ffffff;
@@ -2424,7 +2446,6 @@ p.call-now {
   font-family: 'Raleway', sans-serif;
   font-size: 28px;
   margin: 0;
-  text-transform: uppercase;
 }
 .latest-news-area .news-area-heading-section h2 span {
   color: #0084B5;
@@ -2531,7 +2552,6 @@ p.call-now {
   color: #000000;
   font-size: 18px;
   font-weight: 600;
-  text-transform: uppercase;
   transition: all 0.3s ease 0s;
   margin: 0 0 25px;
 }
@@ -2574,7 +2594,6 @@ p.call-now {
   font-size: 24px;
   font-weight: 700;
   margin: 0 0 15px;
-  text-transform: uppercase;
 }
 .total-blog-area .blog-sidebar-area .single-sidebar .sidebar-search {
   overflow: hidden;
@@ -3293,11 +3312,6 @@ p.call-now {
 /*-------------------------------------
 19. Servicio
 ---------------------------------------*/
-
-.special-text {
-  color: #0084B5;
-}
-
 .service-title-area {
   padding: 90px 0 100px;
 }
@@ -3315,6 +3329,7 @@ p.call-now {
   padding: 20px 0;
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
+  text-align: justify;
 }
 .service-title-area .about-service-content {
   padding: 0 20px;
@@ -3322,6 +3337,50 @@ p.call-now {
 .service-title-area .about-service-content p {
   font-family: "Open Sans", sans-serif;
   margin-bottom: 28px;
+}
+.service-title-area .about-service-content .special-text {
+  border-left: 3px solid #CECECE;
+  margin-right: 5px;
+}
+.service-title-area .about-service-content .special-text p {
+  padding: 5px 15px;
+  color: #0084B5;
+}
+.service-title-area .about-service-content .contact-us-button {
+  display: inline-block;
+  position: relative;
+  float: right;
+}
+.service-title-area .about-service-content .contact-us-button a {
+  background-color: #0084B5;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 40px;
+  padding: 14px 14px 14px 14px;
+  text-decoration: none;
+  transition: all 0.3s ease 0s;
+  width: 170px;
+  border: 1px solid #0084B5;
+  color: #ffffff;
+  text-align: center;
+}
+.service-title-area .about-service-content .contact-us-button a:hover:after {
+  color: #ffffff;
+}
+.service-title-area .about-service-content .contact-us-button a:hover {
+  background: #00587A;
+  border: 1px solid #00587A;
+  color: #ffffff;
+}
+.service-title-area .about-page-featured-image p {
+  text-align: center;
+  margin-top: 5px;
+  font-size: 12px;
+}
+.service-area {
+  padding: 20px 0 30px;
+  background: #f9f9f9;
 }
 
 
@@ -3331,37 +3390,36 @@ p.call-now {
 .service-center-block {
   float: none;
 }
-.practice-area .practice-service-section-area .service-page-content-section {
+.service-area .practice-service-section-area .service-page-content-section {
   padding: 60px 50px;
   position: relative;
   overflow: hidden;
   margin: 30px 0 0 0;
 }
-.practice-area .practice-service-section-area .service-page-content-section a img {
+.service-area .practice-service-section-area .service-page-content-section a img {
   color: #0084B5;
   font-size: 50px;
   margin: 15px;
   max-width: none;
 }
-.practice-area .practice-service-section-area .secttion {
+.service-area .practice-service-section-area .secttion {
   border-right: 1px solid #cfcfcf;
   position: relative;
 }
-.practice-area .practice-service-section-area .service-page-content-section p {
-
+.service-area .practice-service-section-area .service-page-content-section .media {
+  text-align: center;
 }
-.practice-area .practice-service-section-area .service-page-content-section h4 a {
+.service-area .practice-service-section-area .service-page-content-section h4 {
+  margin-bottom: 10px;
+}
+.service-area .practice-service-section-area .service-page-content-section h4 a {
   color: #0084B5;
   font-size: 20px;
   text-decoration: none;
   transition: all 0.3s ease 0s;
   font-weight: 700;
+  border-bottom: 2px solid #cfcfcf;
 }
-.practice-area .practice-service-section-area .service-page-content-section h4 a:hover {
+.service-area .practice-service-section-area .service-page-content-section h4 a:hover {
   color: #00587A;
-}
-.service-title-area .about-page-featured-image p {
-  text-align: center;
-  margin-top: 5px;
-  font-size: 12px;
 }
